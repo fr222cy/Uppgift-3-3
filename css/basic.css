@@ -73,7 +73,7 @@ height:36px;
         background-color: #9C9080;
         }
         
-        #menu a.active 
+        #menu li.active a 
         {
         background-color:#EAE8D3;
         color:#797066;
