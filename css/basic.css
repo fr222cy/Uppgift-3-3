@@ -6,6 +6,10 @@ font-family:Verdana, "TimesNewRoman";
 
 }
 
+h1
+{
+font-size:30px;
+}
 #container
 {
 margin:0 auto;
@@ -69,9 +73,10 @@ height:36px;
         background-color: #9C9080;
         }
         
-        #menu a:active
+        #menu a.active 
         {
         background-color:#EAE8D3;
+        color:#797066;
         }
         
 #content
@@ -96,10 +101,7 @@ color:#797066;
         margin-bottom:3px;
         }
         
-        h1
-        {
-        font-family: "Times New Roman", Times, Georgia, serif;
-        }
+       
 
 #subcontent
 {
@@ -126,6 +128,10 @@ border-left: 1px dashed;
         list-style-type:none;
         }
         
+        #subcontent h1
+        {
+        font-size:20px;
+        }
        
         
 #bottomcontent
